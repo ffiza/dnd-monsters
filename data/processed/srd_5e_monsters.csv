@@ -1,0 +1,328 @@
+Name,ChallengeRating,Type,Size,Strength,Dexterity,Constitution,Intelligence,Wisdom,Charisma,Alignment,WalkSpeed,SwimSpeed,FlySpeed,BurrowSpeed,ClimbSpeed
+Aboleth,10,Aberration,Large,21,9,15,18,15,18,lawful evil,10,40,0,0,0
+Acolyte,1/4,Humanoid,Medium,10,10,10,10,14,11,any,30,0,0,0,0
+Adult Black Dragon,14,Dragon,Huge,23,14,21,14,13,17,chaotic evil,40,40,80,0,0
+Adult Blue Dragon,16,Dragon,Huge,25,10,23,16,15,19,lawful evil,40,0,80,30,0
+Adult Brass Dragon,13,Dragon,Huge,23,10,21,14,13,17,chaotic good,40,0,80,30,0
+Adult Bronze Dragon,15,Dragon,Huge,25,10,23,16,15,19,lawful good,40,40,80,0,0
+Adult Copper Dragon,14,Dragon,Huge,23,12,21,18,15,17,chaotic good,40,0,80,0,40
+Adult Gold Dragon,17,Dragon,Huge,27,14,25,16,15,24,lawful good,40,40,80,0,0
+Adult Green Dragon,15,Dragon,Huge,23,12,21,18,15,17,lawful evil,40,40,80,0,0
+Adult Red Dragon,17,Dragon,Huge,27,10,25,16,13,21,chaotic evil,40,0,80,0,40
+Adult Silver Dragon,16,Dragon,Huge,27,10,25,16,13,21,lawful good,40,0,80,0,0
+Adult White Dragon,13,Dragon,Huge,22,10,22,8,12,12,chaotic evil,40,40,80,30,0
+Air Elemental,5,Elemental,Large,14,20,14,6,10,6,neutral,0,0,90,0,0
+Allosaurus,2,Beast,Large,19,13,17,2,12,5,unaligned,60,0,0,0,0
+Ancient Black Dragon,21,Dragon,Gargantuan,27,14,25,16,15,19,chaotic evil,40,40,80,0,0
+Ancient Blue Dragon,23,Dragon,Gargantuan,29,10,27,18,17,21,lawful evil,40,0,80,40,0
+Ancient Brass Dragon,20,Dragon,Gargantuan,27,10,25,16,15,19,chaotic good,40,0,80,40,0
+Ancient Bronze Dragon,22,Dragon,Gargantuan,29,10,27,18,17,21,lawful good,40,40,80,0,0
+Ancient Copper Dragon,21,Dragon,Gargantuan,27,12,25,20,17,19,chaotic good,40,0,80,0,40
+Ancient Gold Dragon,24,Dragon,Gargantuan,30,14,29,18,17,28,lawful good,40,40,80,0,0
+Ancient Green Dragon,22,Dragon,Gargantuan,27,12,25,20,17,19,lawful evil,40,40,80,0,0
+Ancient Red Dragon,24,Dragon,Gargantuan,30,10,29,18,15,23,chaotic evil,40,0,80,0,40
+Ancient Silver Dragon,23,Dragon,Gargantuan,30,10,29,18,15,23,lawful good,40,0,80,0,0
+Ancient White Dragon,20,Dragon,Gargantuan,26,10,26,10,13,14,chaotic evil,40,40,80,40,0
+Androsphinx,17,Monstrosity,Large,22,10,20,16,18,23,lawful neutral,40,0,60,0,0
+Animated Armor,1,Construct,Medium,14,11,13,1,3,1,unaligned,25,0,0,0,0
+Ankheg,2,Monstrosity,Large,17,11,13,1,13,6,unaligned,30,0,0,10,0
+Ankylosaurus,3,Beast,Huge,19,11,15,2,12,5,unaligned,30,0,0,0,0
+Ape,1/2,Beast,Medium,16,14,14,6,12,7,unaligned,30,0,0,0,30
+Archmage,12,Humanoid,Medium,10,14,12,20,15,16,any,30,0,0,0,0
+Assassin,8,Humanoid,Medium,11,16,14,13,11,10,any,30,0,0,0,0
+Awakened Shrub,0,Plant,Small,3,8,11,10,10,6,unaligned,20,0,0,0,0
+Awakened Tree,2,Plant,Huge,19,6,15,10,10,7,unaligned,20,0,0,0,0
+Axe Beak,1/4,Beast,Large,14,12,12,2,10,5,unaligned,50,0,0,0,0
+Azer,2,Elemental,Medium,17,12,15,12,13,10,lawful neutral,30,0,0,0,0
+Baboon,0,Beast,Small,8,14,11,4,12,6,unaligned,30,0,0,0,30
+Badger,0,Beast,Tiny,4,11,12,2,12,5,unaligned,20,0,0,5,0
+Balor,19,Fiend,Huge,26,15,22,20,16,22,chaotic evil,40,0,80,0,0
+Bandit,1/8,Humanoid,Medium,11,12,12,10,10,10,any,30,0,0,0,0
+Bandit Captain,2,Humanoid,Medium,15,16,14,14,11,14,any,30,0,0,0,0
+Banshee,4,Undead,Medium,1,14,10,12,11,17,chaotic evil,0,0,40,0,0
+Barbed Devil,5,Fiend,Medium,16,17,18,12,14,14,lawful evil,30,0,0,0,0
+Basilisk,3,Monstrosity,Medium,16,8,15,2,8,7,unaligned,20,0,0,0,0
+Bat,0,Beast,Tiny,2,15,8,2,12,4,unaligned,5,0,30,0,0
+Bearded Devil,3,Fiend,Medium,16,15,15,9,11,11,lawful evil,30,0,0,0,0
+Behir,11,Monstrosity,Huge,23,16,18,7,14,12,neutral evil,50,0,0,0,40
+Berserker,2,Humanoid,Medium,16,12,17,9,11,9,any,30,0,0,0,0
+Black Bear,1/2,Beast,Medium,15,10,14,2,12,7,unaligned,40,0,0,0,30
+Black Dragon Wyrmling,2,Dragon,Medium,15,14,13,10,11,13,chaotic evil,30,30,60,0,0
+Black Pudding,4,Ooze,Large,16,5,16,1,6,1,unaligned,20,0,0,0,20
+Blink Dog,1/4,Fey,Medium,12,17,12,10,13,11,lawful good,40,0,0,0,0
+Blood Hawk,1/8,Beast,Small,6,14,10,3,14,5,unaligned,10,0,60,0,0
+Blue Dragon Wyrmling,3,Dragon,Medium,17,10,15,12,11,15,lawful evil,30,0,60,15,0
+Boar,1/4,Beast,Medium,13,11,12,2,9,5,unaligned,40,0,0,0,0
+Bone Devil,9,Fiend,Large,18,16,18,13,14,16,lawful evil,40,0,40,0,0
+Brass Dragon Wyrmling,1,Dragon,Medium,15,10,13,10,11,13,chaotic good,30,0,60,15,0
+Bronze Dragon Wyrmling,2,Dragon,Medium,17,10,15,12,11,15,lawful good,30,30,60,0,0
+Brown Bear,1,Beast,Large,19,10,16,2,13,7,unaligned,40,0,0,0,30
+Bugbear,1,Humanoid,Medium,15,14,13,8,11,9,chaotic evil,30,0,0,0,0
+Bulette,5,Monstrosity,Large,19,11,21,2,10,5,unaligned,40,0,0,40,0
+Camel,1/8,Beast,Large,16,8,14,2,8,5,unaligned,50,0,0,0,0
+Cat,0,Beast,Tiny,3,15,10,3,12,7,unaligned,40,0,0,0,30
+Centaur,2,Monstrosity,Large,18,14,14,9,13,11,neutral good,50,0,0,0,0
+Chain Devil,8,Fiend,Medium,18,15,18,11,12,14,lawful evil,30,0,0,0,0
+Chimera,6,Monstrosity,Large,19,11,19,3,14,10,chaotic evil,30,0,60,0,0
+Chuul,4,Aberration,Large,19,10,16,5,11,5,chaotic evil,30,30,0,0,0
+Clay Golem,9,Construct,Large,20,9,18,3,8,1,unaligned,20,0,0,0,0
+Cloaker,8,Aberration,Large,17,15,12,13,12,14,chaotic neutral,10,0,40,0,0
+Cloud Giant,9,Giant,Huge,27,10,22,12,16,16,neutral,40,0,0,0,0
+Cockatrice,1/2,Monstrosity,Small,6,12,12,2,13,5,unaligned,20,0,40,0,0
+Commoner,0,Humanoid,Medium,10,10,10,10,10,10,any,30,0,0,0,0
+Constrictor Snake,1/4,Beast,Large,15,14,12,1,10,3,unaligned,30,30,0,0,0
+Copper Dragon Wyrmling,1,Dragon,Medium,15,12,13,14,11,13,chaotic good,30,0,60,0,30
+Couatl,4,Celestial,Medium,16,20,17,18,20,18,lawful good,30,0,90,0,0
+Crab,0,Beast,Tiny,2,11,10,1,8,2,unaligned,20,20,0,0,0
+Crocodile,1/2,Beast,Large,15,10,13,2,10,5,unaligned,20,30,0,0,0
+Cult Fanatic,2,Humanoid,Medium,11,14,12,10,13,14,any,30,0,0,0,0
+Cultist,1/8,Humanoid,Medium,11,12,10,10,11,10,any,30,0,0,0,0
+Cyclops,6,Giant,Huge,22,11,20,8,6,10,chaotic neutral,30,0,0,0,0
+Darkmantle,1/2,Monstrosity,Small,16,12,13,2,10,5,unaligned,10,0,30,0,0
+Death Dog,1,Monstrosity,Medium,15,14,14,3,13,6,neutral evil,40,0,0,0,0
+Deep Gnome (Svirfneblin),1/2,Humanoid,Small,15,14,14,12,10,9,neutral good,20,0,0,0,0
+Deer,0,Beast,Medium,11,16,11,2,14,5,unaligned,50,0,0,0,0
+Deva,10,Celestial,Medium,18,18,18,17,20,20,lawful good,30,0,90,0,0
+Dire Wolf,1,Beast,Large,17,15,15,3,12,7,unaligned,50,0,0,0,0
+Djinni,11,Elemental,Large,21,15,22,15,16,20,chaotic good,30,0,90,0,0
+Doppelganger,3,Monstrosity,Medium,11,18,14,11,12,14,neutral,30,0,0,0,0
+Draft Horse,1/4,Beast,Large,18,10,12,2,11,7,unaligned,40,0,0,0,0
+Dragon Turtle,17,Dragon,Gargantuan,25,10,20,10,12,12,neutral,20,40,0,0,0
+Dretch,1/4,Fiend,Small,11,11,12,5,8,3,chaotic evil,20,0,0,0,0
+Drider,6,Monstrosity,Large,16,16,18,13,14,12,chaotic evil,30,0,0,0,30
+Drow,1/4,Humanoid,Medium,10,14,10,11,11,12,neutral evil,30,0,0,0,0
+Druid,2,Humanoid,Medium,10,12,13,12,15,11,any,30,0,0,0,0
+Dryad,1,Fey,Medium,10,12,11,14,15,18,neutral,30,0,0,0,0
+Duergar,1,Humanoid,Medium,14,11,14,11,10,9,lawful evil,25,0,0,0,0
+Dust Mephit,1/2,Elemental,Small,5,14,10,9,11,10,neutral evil,30,0,30,0,0
+Eagle,0,Beast,Small,6,15,10,2,14,7,unaligned,10,0,60,0,0
+Earth Elemental,5,Elemental,Large,20,8,20,5,10,5,neutral,30,0,0,30,0
+Efreeti,11,Elemental,Large,22,12,24,16,15,16,lawful evil,40,0,60,0,0
+Elephant,4,Beast,Huge,22,9,17,3,11,6,unaligned,40,0,0,0,0
+Elk,1/4,Beast,Large,16,10,12,2,10,6,unaligned,50,0,0,0,0
+Erinyes,12,Fiend,Medium,18,16,18,14,14,18,lawful evil,30,0,60,0,0
+Ettercap,2,Monstrosity,Medium,14,15,13,7,12,8,neutral evil,30,0,0,0,30
+Ettin,4,Giant,Large,21,8,17,6,10,8,chaotic evil,40,0,0,0,0
+Fire Elemental,5,Elemental,Large,10,17,16,6,10,7,neutral,50,0,0,0,0
+Fire Giant,9,Giant,Huge,25,9,23,10,14,13,lawful evil,30,0,0,0,0
+Flameskull,4,Undead,Tiny,1,17,14,16,10,11,neutral evil,0,0,40,0,0
+Flesh Golem,5,Construct,Medium,19,9,18,6,10,5,neutral,30,0,0,0,0
+Flying Snake,1/8,Beast,Tiny,4,18,11,2,12,5,unaligned,30,30,60,0,0
+Flying Sword,1/4,Construct,Small,12,15,11,1,5,1,unaligned,0,0,50,0,0
+Frog,0,Beast,Tiny,1,13,8,1,8,3,unaligned,20,20,0,0,0
+Frost Giant,8,Giant,Huge,23,9,21,9,10,12,neutral evil,40,0,0,0,0
+Gargoyle,2,Elemental,Medium,15,11,16,6,11,7,chaotic evil,30,0,60,0,0
+Gelatinous Cube,2,Ooze,Large,14,3,20,1,6,1,unaligned,15,0,0,0,0
+Ghast,2,Undead,Medium,16,17,10,11,10,8,chaotic evil,30,0,0,0,0
+Ghost,4,Undead,Medium,7,13,10,10,12,17,any,0,0,40,0,0
+Ghoul,1,Undead,Medium,13,15,10,7,10,6,chaotic evil,30,0,0,0,0
+Giant Ape,7,Beast,Huge,23,14,18,7,12,7,unaligned,40,0,0,0,40
+Giant Badger,1/4,Beast,Medium,13,10,15,2,12,5,unaligned,30,0,0,10,0
+Giant Bat,1/4,Beast,Large,15,16,11,2,12,6,unaligned,10,0,60,0,0
+Giant Boar,2,Beast,Large,17,10,16,2,7,5,unaligned,40,0,0,0,0
+Giant Centipede,1/4,Beast,Small,5,14,12,1,7,3,unaligned,30,0,0,0,30
+Giant Constrictor Snake,2,Beast,Huge,19,14,12,1,10,3,unaligned,30,30,0,0,0
+Giant Crab,1/8,Beast,Medium,13,15,11,1,9,3,unaligned,30,30,0,0,0
+Giant Crocodile,5,Beast,Huge,21,9,17,2,10,7,unaligned,30,50,0,0,0
+Giant Eagle,1,Beast,Large,16,17,13,8,14,10,neutral good,10,0,80,0,0
+Giant Elk,2,Beast,Huge,19,16,14,7,14,10,unaligned,60,0,0,0,0
+Giant Fire Beetle,0,Beast,Small,8,10,12,1,7,3,unaligned,30,0,0,0,0
+Giant Frog,1/4,Beast,Medium,12,13,11,2,10,3,unaligned,30,30,0,0,0
+Giant Goat,1/2,Beast,Large,17,11,12,3,12,6,unaligned,40,0,0,0,0
+Giant Hyena,1,Beast,Large,16,14,14,2,12,7,unaligned,50,0,0,0,0
+Giant Lizard,1/4,Beast,Large,15,12,13,2,10,5,unaligned,30,0,0,0,30
+Giant Octopus,1,Beast,Large,17,13,13,4,10,4,unaligned,10,60,0,0,0
+Giant Owl,1/4,Beast,Large,13,15,12,8,13,10,neutral,5,0,60,0,0
+Giant Poisonous Snake,1/4,Beast,Medium,10,18,13,2,10,3,unaligned,30,30,0,0,0
+Giant Rat,1/8,Beast,Small,7,15,11,2,10,4,unaligned,30,0,0,0,0
+Giant Scorpion,3,Beast,Large,15,13,15,1,9,3,unaligned,40,0,0,0,0
+Giant Sea Horse,1/2,Beast,Large,12,15,11,2,12,5,unaligned,0,40,0,0,0
+Giant Shark,5,Beast,Huge,23,11,21,1,10,5,unaligned,0,50,0,0,0
+Giant Spider,1,Beast,Large,14,16,12,2,11,4,unaligned,30,0,0,0,30
+Giant Toad,1,Beast,Large,15,13,13,2,10,3,unaligned,20,40,0,0,0
+Giant Vulture,1,Beast,Large,15,10,15,6,12,7,neutral,10,0,60,0,0
+Giant Wasp,1/2,Beast,Medium,10,14,10,1,10,3,unaligned,10,0,50,0,0
+Giant Weasel,1/8,Beast,Medium,11,16,10,4,12,5,unaligned,40,0,0,0,0
+Giant Wolf Spider,1/4,Beast,Medium,12,16,13,3,12,4,unaligned,40,0,0,0,40
+Gibbering Mouther,2,Aberration,Medium,10,8,16,3,10,6,neutral,10,10,0,0,0
+Glabrezu,9,Fiend,Large,20,15,21,19,17,16,chaotic evil,40,0,0,0,0
+Gladiator,5,Humanoid,Medium,18,15,16,10,12,15,any,30,0,0,0,0
+Gnoll,1/2,Humanoid,Medium,14,12,11,6,10,7,chaotic evil,30,0,0,0,0
+Goat,0,Beast,Medium,12,10,11,2,10,5,unaligned,40,0,0,0,0
+Goblin,1/4,Humanoid,Small,8,14,10,10,8,8,neutral evil,30,0,0,0,0
+Gold Dragon Wyrmling,3,Dragon,Medium,19,14,17,14,11,16,lawful good,30,30,60,0,0
+Gorgon,5,Monstrosity,Large,20,11,18,2,12,7,unaligned,40,0,0,0,0
+Gray Ooze,1/2,Ooze,Medium,12,6,16,1,6,2,unaligned,10,0,0,0,10
+Green Dragon Wyrmling,2,Dragon,Medium,15,12,13,14,11,13,lawful evil,30,30,60,0,0
+Green Hag,3,Fey,Medium,18,12,16,13,14,14,neutral evil,30,0,0,0,0
+Grick,2,Monstrosity,Medium,14,14,11,3,14,5,neutral,30,0,0,0,30
+Griffon,2,Monstrosity,Large,18,15,16,2,13,8,unaligned,30,0,80,0,0
+Grimlock,1/4,Humanoid,Medium,16,12,12,9,8,6,neutral evil,30,0,0,0,0
+Guard,1/8,Humanoid,Medium,13,12,12,10,11,10,any,30,0,0,0,0
+Guardian Naga,10,Monstrosity,Large,19,18,16,16,19,18,lawful good,40,0,0,0,0
+Gynosphinx,11,Monstrosity,Large,18,15,16,18,18,18,lawful neutral,40,0,60,0,0
+Half-Red Dragon Veteran,5,Humanoid,Medium,16,13,14,10,11,10,any,30,0,0,0,0
+Harpy,1,Monstrosity,Medium,12,13,12,7,10,13,chaotic evil,20,0,40,0,0
+Hawk,0,Beast,Tiny,5,16,8,2,14,6,unaligned,10,0,60,0,0
+Hell Hound,3,Fiend,Medium,17,12,14,6,13,6,lawful evil,50,0,0,0,0
+Hezrou,8,Fiend,Large,19,17,20,5,12,13,chaotic evil,30,0,0,0,0
+Hill Giant,5,Giant,Huge,21,8,19,5,9,6,chaotic evil,40,0,0,0,0
+Hippogriff,1,Monstrosity,Large,17,13,13,2,12,8,unaligned,40,0,60,0,0
+Hobgoblin,1/2,Humanoid,Medium,13,12,12,10,10,9,lawful evil,30,0,0,0,0
+Homunculus,0,Construct,Tiny,4,15,11,10,10,7,neutral,20,0,40,0,0
+Horned Devil,11,Fiend,Large,22,17,21,12,16,17,lawful evil,20,0,60,0,0
+Hunter Shark,2,Beast,Large,18,13,15,1,10,4,unaligned,0,40,0,0,0
+Hydra,8,Monstrosity,Huge,20,12,20,2,10,7,unaligned,30,30,0,0,0
+Hyena,0,Beast,Medium,11,13,12,2,12,5,unaligned,50,0,0,0,0
+Ice Devil,14,Fiend,Large,21,14,18,18,15,18,lawful evil,40,0,0,0,0
+Ice Mephit,1/2,Elemental,Small,7,13,10,9,11,12,neutral evil,30,0,30,0,0
+Imp,1,Fiend,Tiny,6,17,13,11,12,14,lawful evil,20,0,40,0,0
+Invisible Stalker,6,Elemental,Medium,16,19,14,10,15,11,neutral,50,0,50,0,0
+Iron Golem,16,Construct,Large,24,9,20,3,11,1,unaligned,30,0,0,0,0
+Jackal,0,Beast,Small,8,15,11,3,12,6,unaligned,40,0,0,0,0
+Killer Whale,3,Beast,Huge,19,10,13,3,12,7,unaligned,0,60,0,0,0
+Knight,3,Humanoid,Medium,16,11,14,11,11,15,any,30,0,0,0,0
+Kobold,1/8,Humanoid,Small,7,15,9,8,7,8,lawful evil,30,0,0,0,0
+Kraken,23,Monstrosity,Gargantuan,30,11,25,22,18,20,chaotic evil,20,60,0,0,0
+Lamia,4,Monstrosity,Large,16,13,15,14,15,16,chaotic evil,30,0,0,0,0
+Lemure,0,Fiend,Medium,10,5,11,1,11,3,lawful evil,15,0,0,0,0
+Lich,21,Undead,Medium,11,16,16,20,14,16,any evil alignment,30,0,0,0,0
+Lion,1,Beast,Large,17,15,13,3,12,8,unaligned,50,0,0,0,0
+Lizard,0,Beast,Tiny,2,11,10,1,8,3,unaligned,20,0,0,0,20
+Lizardfolk,1/2,Humanoid,Medium,15,10,13,7,12,7,neutral,30,30,0,0,0
+Mage,6,Humanoid,Medium,9,14,11,17,12,11,any,30,0,0,0,0
+Magma Mephit,1/2,Elemental,Small,8,12,12,7,10,10,neutral evil,30,0,30,0,0
+Magmin,1/2,Elemental,Small,7,15,12,8,11,10,chaotic neutral,30,0,0,0,0
+Mammoth,6,Beast,Huge,24,9,21,3,11,6,unaligned,40,0,0,0,0
+Manticore,3,Monstrosity,Large,17,16,17,7,12,8,lawful evil,30,0,50,0,0
+Marilith,16,Fiend,Large,18,20,20,18,16,20,chaotic evil,40,0,0,0,0
+Mastiff,1/8,Beast,Medium,13,14,12,3,12,7,unaligned,40,0,0,0,0
+Medusa,6,Monstrosity,Medium,10,15,16,12,13,15,lawful evil,30,0,0,0,0
+Merfolk,1/8,Humanoid,Medium,10,13,12,11,11,12,neutral,10,40,0,0,0
+Merrow,2,Monstrosity,Large,18,10,15,8,10,9,chaotic evil,10,40,0,0,0
+Mimic,2,Monstrosity,Medium,17,12,15,5,13,8,neutral,15,0,0,0,0
+Minotaur,3,Monstrosity,Large,18,11,16,6,16,9,chaotic evil,40,0,0,0,0
+Minotaur Skeleton,2,Undead,Large,18,11,15,6,8,5,lawful evil,40,0,0,0,0
+Mule,1/8,Beast,Medium,14,10,13,2,10,5,unaligned,40,0,0,0,0
+Mummy,3,Undead,Medium,16,8,15,6,10,12,lawful evil,20,0,0,0,0
+Mummy Lord,15,Undead,Medium,18,10,17,11,18,16,lawful evil,20,0,0,0,0
+Nalfeshnee,13,Fiend,Large,21,10,22,19,12,15,chaotic evil,20,0,30,0,0
+Night Hag,5,Fiend,Medium,18,15,16,16,14,16,neutral evil,30,0,0,0,0
+Nightmare,3,Fiend,Large,18,15,16,10,13,15,neutral evil,60,0,90,0,0
+Noble,1/8,Humanoid,Medium,11,12,11,12,14,16,any,30,0,0,0,0
+Nothic,2,Aberration,Medium,14,16,16,13,10,8,neutral evil,30,0,0,0,0
+Ochre Jelly,2,Ooze,Large,15,6,14,2,6,1,unaligned,10,0,0,0,10
+Octopus,0,Beast,Small,4,15,11,3,10,4,unaligned,5,30,0,0,0
+Ogre,2,Giant,Large,19,8,16,5,7,7,chaotic evil,40,0,0,0,0
+Ogre Zombie,2,Undead,Large,19,6,18,3,6,5,neutral evil,30,0,0,0,0
+Oni,7,Giant,Large,19,11,16,14,12,15,lawful evil,30,0,30,0,0
+Orc,1/2,Humanoid,Medium,16,12,16,7,11,10,chaotic evil,30,0,0,0,0
+Otyugh,5,Aberration,Large,16,11,19,6,13,6,neutral,30,0,0,0,0
+Owl,0,Beast,Tiny,3,13,8,2,12,7,unaligned,5,0,60,0,0
+Owlbear,3,Monstrosity,Large,20,12,17,3,12,7,unaligned,40,0,0,0,0
+Panther,1/4,Beast,Medium,14,15,10,3,14,7,unaligned,50,0,0,0,40
+Pegasus,2,Celestial,Large,18,15,16,10,15,13,chaotic good,60,0,90,0,0
+Phase Spider,3,Monstrosity,Large,15,15,12,6,10,6,unaligned,30,0,0,0,30
+Pit Fiend,20,Fiend,Large,26,14,24,22,18,24,lawful evil,30,0,60,0,0
+Planetar,16,Celestial,Large,24,20,24,19,22,25,lawful good,40,0,120,0,0
+Plesiosaurus,2,Beast,Large,18,15,16,2,12,5,unaligned,20,40,0,0,0
+Poisonous Snake,1/8,Beast,Tiny,2,16,11,1,10,3,unaligned,30,30,0,0,0
+Polar Bear,2,Beast,Large,20,10,16,2,13,7,unaligned,40,30,0,0,0
+Pony,1/8,Beast,Medium,15,10,13,2,11,7,unaligned,40,0,0,0,0
+Priest,2,Humanoid,Medium,10,10,12,13,16,13,any,25,0,0,0,0
+Pseudodragon,1/4,Dragon,Tiny,6,15,13,10,12,10,neutral good,15,0,60,0,0
+Pteranodon,1/4,Beast,Medium,12,15,10,2,9,5,unaligned,10,0,60,0,0
+Purple Worm,15,Monstrosity,Gargantuan,28,7,22,1,8,4,unaligned,50,0,0,30,0
+Quasit,1,Fiend,Tiny,5,17,10,7,10,10,chaotic evil,40,0,0,0,0
+Quipper,0,Beast,Tiny,2,16,9,1,7,2,unaligned,0,40,0,0,0
+Rakshasa,13,Fiend,Medium,14,17,18,13,16,20,lawful evil,40,0,0,0,0
+Rat,0,Beast,Tiny,2,11,9,2,10,4,unaligned,20,0,0,0,0
+Raven,0,Beast,Tiny,2,14,8,2,12,6,unaligned,10,0,50,0,0
+Red Dragon Wyrmling,4,Dragon,Medium,19,10,17,12,11,15,chaotic evil,30,0,60,0,30
+Reef Shark,1/2,Beast,Medium,14,13,13,1,10,4,unaligned,0,40,0,0,0
+Remorhaz,11,Monstrosity,Huge,24,13,21,4,10,5,unaligned,30,0,0,20,0
+Rhinoceros,2,Beast,Large,21,8,15,2,12,6,unaligned,40,0,0,0,0
+Riding Horse,1/4,Beast,Large,16,10,12,2,11,7,unaligned,60,0,0,0,0
+Roc,11,Monstrosity,Gargantuan,28,10,20,3,10,9,unaligned,20,0,120,0,0
+Roper,5,Monstrosity,Large,18,8,17,7,16,6,neutral evil,10,0,0,0,10
+Rug of Smothering,2,Construct,Large,17,14,10,1,3,1,unaligned,10,0,0,0,0
+Rust Monster,1/2,Monstrosity,Medium,13,12,13,2,13,6,unaligned,40,0,0,0,0
+Saber-Toothed Tiger,2,Beast,Large,18,14,15,3,12,8,unaligned,40,0,0,0,0
+Sahuagin,1/2,Humanoid,Medium,13,11,12,12,13,9,lawful evil,30,40,0,0,0
+Salamander,5,Elemental,Large,18,14,15,11,10,12,neutral evil,30,0,0,0,0
+Satyr,1/2,Fey,Medium,12,16,11,12,10,14,chaotic neutral,40,0,0,0,0
+Scorpion,0,Beast,Tiny,2,11,8,1,8,2,unaligned,10,0,0,0,0
+Scout,1/2,Humanoid,Medium,11,14,12,11,13,11,any,30,0,0,0,0
+Sea Hag,2,Fey,Medium,16,13,16,12,12,13,chaotic evil,30,40,0,0,0
+Sea Horse,0,Beast,Tiny,1,12,8,1,10,2,unaligned,0,20,0,0,0
+Shadow,1/2,Undead,Medium,6,14,13,6,10,8,chaotic evil,40,0,0,0,0
+Shambling Mound,5,Plant,Large,18,8,16,5,10,5,unaligned,20,20,0,0,0
+Shield Guardian,7,Construct,Large,18,8,18,7,10,3,unaligned,30,0,0,0,0
+Shrieker,0,Plant,Medium,1,1,10,1,3,1,unaligned,0,0,0,0,0
+Silver Dragon Wyrmling,2,Dragon,Medium,19,10,17,12,11,15,lawful good,30,0,60,0,0
+Skeleton,1/4,Undead,Medium,10,14,15,6,8,5,lawful evil,30,0,0,0,0
+Solar,21,Celestial,Large,26,22,26,25,25,30,lawful good,50,0,150,0,0
+Spectator,3,Aberration,Medium,8,14,14,13,14,11,lawful neutral,0,0,30,0,0
+Specter,1,Undead,Medium,1,14,11,10,10,11,chaotic evil,0,0,50,0,0
+Spider,0,Beast,Tiny,2,14,8,1,10,2,unaligned,20,0,0,0,20
+Spirit Naga,8,Monstrosity,Large,18,17,14,16,15,16,chaotic evil,40,0,0,0,0
+Sprite,1/4,Fey,Tiny,3,18,10,14,13,11,neutral good,10,0,40,0,0
+Spy,1,Humanoid,Medium,10,15,10,12,14,16,any,30,0,0,0,0
+Steam Mephit,1/4,Elemental,Small,5,11,10,11,10,12,neutral evil,30,0,30,0,0
+Stirge,1/8,Beast,Tiny,4,16,11,2,8,6,unaligned,10,0,40,0,0
+Stone Giant,7,Giant,Huge,23,15,20,10,12,9,neutral,40,0,0,0,0
+Stone Golem,10,Construct,Large,22,9,20,3,11,1,unaligned,30,0,0,0,0
+Storm Giant,13,Giant,Huge,29,14,20,16,18,18,chaotic good,50,50,0,0,0
+Succubus/Incubus,4,Fiend,Medium,8,17,13,15,12,20,neutral evil,30,0,60,0,0
+Swarm of Bats,1/4,Beast,Medium,5,15,10,2,12,4,unaligned,0,0,30,0,0
+Swarm of Insects,1/2,Beast,Medium,3,13,10,1,7,1,unaligned,20,0,0,0,20
+Swarm of Poisonous Snakes,2,Beast,Medium,8,18,11,1,10,3,unaligned,30,30,0,0,0
+Swarm of Quippers,1,Beast,Medium,13,16,9,1,7,2,unaligned,0,40,0,0,0
+Swarm of Rats,1/4,Beast,Medium,9,11,9,2,10,3,unaligned,30,0,0,0,0
+Swarm of Ravens,1/4,Beast,Medium,6,14,8,3,12,6,unaligned,10,0,50,0,0
+Tarrasque,30,Monstrosity,Gargantuan,30,11,30,3,11,11,unaligned,40,0,0,0,0
+Thug,1/2,Humanoid,Medium,15,11,14,10,10,11,any,30,0,0,0,0
+Tiger,1,Beast,Large,17,15,14,3,12,8,unaligned,40,0,0,0,0
+Treant,9,Plant,Huge,23,8,21,12,16,12,chaotic good,30,0,0,0,0
+Tribal Warrior,1/8,Humanoid,Medium,13,11,12,8,11,8,any,30,0,0,0,0
+Triceratops,5,Beast,Huge,22,9,17,2,11,5,unaligned,50,0,0,0,0
+Troll,5,Giant,Large,18,13,20,7,9,7,chaotic evil,30,0,0,0,0
+Twig Blight,1/8,Plant,Small,6,13,12,4,8,3,neutral evil,20,0,0,0,0
+Tyrannosaurus Rex,8,Beast,Huge,25,10,19,2,12,9,unaligned,50,0,0,0,0
+Unicorn,5,Celestial,Large,18,14,15,11,17,16,lawful good,50,0,0,0,0
+Vampire,13,Undead,Medium,18,18,18,17,15,18,lawful evil,30,0,0,0,0
+Vampire Spawn,5,Undead,Medium,16,16,16,11,10,12,neutral evil,30,0,0,0,0
+Veteran,3,Humanoid,Medium,16,13,14,10,11,10,any,30,0,0,0,0
+Violet Fungus,1/4,Plant,Medium,3,1,10,1,3,1,unaligned,5,0,0,0,0
+Vrock,6,Fiend,Large,17,15,18,8,13,8,chaotic evil,40,0,60,0,0
+Vulture,0,Beast,Medium,7,10,13,2,12,4,unaligned,10,0,50,0,0
+Warhorse,1/2,Beast,Large,18,12,13,2,12,7,unaligned,60,0,0,0,0
+Warhorse Skeleton,1/2,Undead,Large,18,12,15,2,8,5,lawful evil,60,0,0,0,0
+Water Elemental,5,Elemental,Large,18,14,18,5,10,8,neutral,30,90,0,0,0
+Weasel,0,Beast,Tiny,3,16,8,2,12,3,unaligned,30,0,0,0,0
+Werebear,5,Humanoid,Medium,19,10,17,11,12,12,neutral good,40,0,0,0,30
+Wereboar,4,Humanoid,Medium,17,10,15,10,11,8,neutral evil,40,0,0,0,0
+Wererat,2,Humanoid,Medium,10,15,12,11,10,8,lawful evil,30,0,0,0,0
+Weretiger,4,Humanoid,Medium,17,15,16,10,13,11,neutral,40,0,0,0,0
+Werewolf,3,Humanoid,Medium,15,13,14,10,11,10,chaotic evil,40,0,0,0,0
+White Dragon Wyrmling,2,Dragon,Medium,14,10,14,5,10,11,chaotic evil,30,30,60,15,0
+Wight,3,Undead,Medium,15,14,16,10,13,15,neutral evil,30,0,0,0,0
+Will-o'-Wisp,2,Undead,Tiny,1,28,10,13,14,11,chaotic evil,0,0,50,0,0
+Winter Wolf,3,Monstrosity,Large,18,13,14,7,12,8,neutral evil,50,0,0,0,0
+Wolf,1/4,Beast,Medium,12,15,12,3,12,6,unaligned,40,0,0,0,0
+Worg,1/2,Monstrosity,Large,16,13,13,7,11,8,neutral evil,50,0,0,0,0
+Wraith,5,Undead,Medium,6,16,16,12,14,15,neutral evil,0,0,60,0,0
+Wyvern,6,Dragon,Large,19,10,16,5,12,6,unaligned,20,0,80,0,0
+Xorn,5,Elemental,Medium,17,10,22,11,10,11,neutral,20,0,0,20,0
+Yeti,3,Monstrosity,Large,18,13,16,8,12,7,chaotic evil,40,0,0,0,40
+Young Black Dragon,7,Dragon,Large,19,14,17,12,11,15,chaotic evil,40,40,80,0,0
+Young Blue Dragon,9,Dragon,Large,21,10,19,14,13,17,lawful evil,40,0,80,20,0
+Young Brass Dragon,6,Dragon,Large,19,10,17,12,11,15,chaotic good,40,0,80,20,0
+Young Bronze Dragon,8,Dragon,Large,21,10,19,14,13,17,lawful good,40,40,80,0,0
+Young Copper Dragon,7,Dragon,Large,19,12,17,16,13,15,chaotic good,40,0,80,0,40
+Young Gold Dragon,10,Dragon,Large,23,14,21,16,13,20,lawful good,40,40,80,0,0
+Young Green Dragon,8,Dragon,Large,19,12,17,16,13,15,lawful evil,40,40,80,0,0
+Young Red Dragon,10,Dragon,Large,23,10,21,14,11,19,chaotic evil,40,0,80,0,40
+Young Silver Dragon,9,Dragon,Large,23,10,21,14,11,19,lawful good,40,0,80,0,0
+Young White Dragon,6,Dragon,Large,18,10,18,6,11,12,chaotic evil,40,40,80,20,0
+Zombie,1/4,Undead,Medium,13,6,16,3,6,5,neutral evil,20,0,0,0,0
