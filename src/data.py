@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 import json
 
+from config import Config
+
+np.random.seed(42)
+
 
 def generate_dummy_data(n_data: int) -> pd.DataFrame:
     CHALLENGE_RATINGS = ["0", "1/8", "1/4", "1/2", "1", "2", "3", "4", "5",
@@ -173,7 +177,11 @@ def parse_monster_block(block: dict) -> list:
     return data
 
 
-def process_data() -> pd.DataFrame:
+def process_data() -> None:
+    """
+    Reads the raw data and saves a new CSV file with the results of the
+    processing.
+    """
     with open('data/raw/srd_5e_monsters.json', 'r') as file:
         monsters = json.load(file)
 
@@ -189,6 +197,27 @@ def process_data() -> pd.DataFrame:
     df["Type"] = df["Type"].str.title()
 
     df.to_csv("data/processed/srd_5e_monsters.csv", index=False)
+
+
+def read_data() -> pd.DataFrame:
+    """
+    Reads the processed data CSV and returns a data frame.
+
+    Returns
+    -------
+    pd.DataFrame
+        The processed data.
+    """
+    config = Config()
+    df = pd.read_csv("data/processed/srd_5e_monsters.csv")
+
+    def cr_to_int(cr: str) -> int:
+        return config.CHALLENGE_RATINGS.index(cr)
+
+    # Add aux data for plotting
+    df["ChallengeRatingInt"] = df["ChallengeRating"].apply(cr_to_int)
+
+    return df
 
 
 if __name__ == "__main__":
