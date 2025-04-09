@@ -17,5 +17,3 @@ class Config:
             'Segoe UI", Roboto, Helvetica, Arial, sans-serif, '
             '"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"')
         self.WIDTH = 1400
-        self.BG_COLOR = "#f4f4f4"
-        self.MARKER_COLOR = "#999999"

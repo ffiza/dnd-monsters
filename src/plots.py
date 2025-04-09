@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 
 from data import read_data
 from config import Config
+from colors import Colors
 
 MAX_PER_ROW = 6
 CATEGORY_SPACING = 2
@@ -79,7 +80,7 @@ def generate_challenge_rating_fig(df: pd.DataFrame) -> None:
 
     fig = px.scatter(df, x="xScatter", y="yScatter")
     fig.update_traces(
-        marker=dict(size=5, color=config.MARKER_COLOR),
+        marker=dict(size=5, color=Colors.MARKER_COLOR),
         hovertemplate="<b>%{customdata[0]}</b><br><i>%{customdata[3]} "
                       "%{customdata[1]}</i>"
                       "<br>CR: %{customdata[2]}<extra></extra>",
@@ -124,8 +125,8 @@ def generate_challenge_rating_fig(df: pd.DataFrame) -> None:
             tickvals=[],
             zeroline=False,
             ),
-        paper_bgcolor=config.BG_COLOR,
-        plot_bgcolor=config.BG_COLOR,
+        paper_bgcolor=Colors.BG_COLOR,
+        plot_bgcolor=Colors.BG_COLOR,
         margin=dict(l=10, r=10, t=30, b=10),
         width=config.WIDTH,
         height=120,
@@ -151,7 +152,7 @@ def generate_challenge_rating_by_type_fig(df: pd.DataFrame) -> None:
     bucket_lines = _calculate_bucket_lines(df)
     bucket_labels = _calculate_bucket_labels(df)
 
-    base_marker = dict(size=5, color=config.MARKER_COLOR)
+    base_marker = dict(size=5, color=Colors.MARKER_COLOR)
 
     fig = go.Figure()
     fig.add_trace(go.Scatter(
@@ -169,8 +170,8 @@ def generate_challenge_rating_by_type_fig(df: pd.DataFrame) -> None:
 
     for t in config.MONSTER_TYPES:
         mask = df["Type"] == t
-        highlight_color = "#0000ff"
-        faded_color = config.MARKER_COLOR
+        highlight_color = Colors.MARKER_HIG_COLOR
+        faded_color = Colors.MARKER_COLOR
 
         marker_colors = [highlight_color if m else faded_color for m in mask]
 
@@ -263,8 +264,8 @@ def generate_challenge_rating_by_type_fig(df: pd.DataFrame) -> None:
             tickvals=[],
             zeroline=False,
         ),
-        paper_bgcolor=config.BG_COLOR,
-        plot_bgcolor=config.BG_COLOR,
+        paper_bgcolor=Colors.BG_COLOR,
+        plot_bgcolor=Colors.BG_COLOR,
         margin=dict(l=10, r=10, t=30, b=10),
         width=config.WIDTH,
         height=120,
@@ -290,7 +291,7 @@ def generate_challenge_rating_by_size_fig(df: pd.DataFrame) -> None:
     bucket_lines = _calculate_bucket_lines(df)
     bucket_labels = _calculate_bucket_labels(df)
 
-    base_marker = dict(size=5, color=config.MARKER_COLOR)
+    base_marker = dict(size=5, color=Colors.MARKER_COLOR)
 
     fig = go.Figure()
     fig.add_trace(go.Scatter(
@@ -308,8 +309,8 @@ def generate_challenge_rating_by_size_fig(df: pd.DataFrame) -> None:
 
     for s in config.SIZES:
         mask = df["Size"] == s
-        highlight_color = "#0000ff"
-        faded_color = config.MARKER_COLOR
+        highlight_color = Colors.MARKER_HIG_COLOR
+        faded_color = Colors.MARKER_COLOR
 
         marker_colors = [highlight_color if m else faded_color for m in mask]
 
@@ -402,8 +403,8 @@ def generate_challenge_rating_by_size_fig(df: pd.DataFrame) -> None:
             tickvals=[],
             zeroline=False,
         ),
-        paper_bgcolor=config.BG_COLOR,
-        plot_bgcolor=config.BG_COLOR,
+        paper_bgcolor=Colors.BG_COLOR,
+        plot_bgcolor=Colors.BG_COLOR,
         margin=dict(l=10, r=10, t=30, b=10),
         width=config.WIDTH,
         height=120,
@@ -433,7 +434,7 @@ def generate_ability_radar_fig(df: pd.DataFrame) -> None:
         fig.add_trace(go.Scatterpolar(
             theta=row_t["Ability"],
             r=row_t["Value"],
-            marker={"color": "#0000ff"},
+            marker={"color": Colors.MARKER_HIG_COLOR},
             visible=False,
             mode="lines+markers",
             name=row["Name"],
@@ -483,7 +484,7 @@ def generate_ability_radar_fig(df: pd.DataFrame) -> None:
                  )
         ],
         polar=dict(
-            bgcolor=config.BG_COLOR,
+            bgcolor=Colors.BG_COLOR,
             radialaxis=dict(
                 visible=True,
                 range=[1, 31],
@@ -504,8 +505,8 @@ def generate_ability_radar_fig(df: pd.DataFrame) -> None:
                 )
             ),
         margin=dict(t=50, l=450, b=50, r=450),
-        paper_bgcolor=config.BG_COLOR,
-        plot_bgcolor=config.BG_COLOR,
+        paper_bgcolor=Colors.BG_COLOR,
+        plot_bgcolor=Colors.BG_COLOR,
         width=config.WIDTH,
         height=300,
     )
