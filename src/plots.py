@@ -214,7 +214,7 @@ def generate_challenge_rating_by_type_fig(df: pd.DataFrame) -> None:
                  xanchor="right",
                  y=1.2,
                  yanchor="top",
-                 bgcolor="white",
+                 bgcolor=Colors.BUTTON_BG_COLOR,
                  bordercolor="black",
                  borderwidth=0,
                  font=dict(family=config.FONT_STACK, size=12, color="black"),
@@ -353,7 +353,7 @@ def generate_challenge_rating_by_size_fig(df: pd.DataFrame) -> None:
                  xanchor="right",
                  y=1.2,
                  yanchor="top",
-                 bgcolor="white",
+                 bgcolor=Colors.BUTTON_BG_COLOR,
                  bordercolor="black",
                  borderwidth=0,
                  font=dict(family=config.FONT_STACK, size=12, color="black"),
@@ -476,7 +476,7 @@ def generate_ability_radar_fig(df: pd.DataFrame) -> None:
                  xanchor="center",
                  y=-0.1,
                  yanchor="top",
-                 bgcolor="white",
+                 bgcolor=Colors.BUTTON_BG_COLOR,
                  bordercolor="black",
                  borderwidth=0,
                  font=dict(family=config.FONT_STACK, size=12, color="black"),
@@ -519,9 +519,160 @@ def generate_ability_radar_fig(df: pd.DataFrame) -> None:
         })
 
 
+def generate_alignment_fig(df: pd.DataFrame) -> None:
+    """
+    Generate a scatter plot of alignment by monsters types.
+    """
+    config = Config()
+
+    # Custom axis
+    ax_lines = [[-1, -1.1, -1, -1.05],
+                [-1, -1.05, 1, -1.05],
+                [1, -1.05, 1, -1.1],
+                [-1.1, -1, -1.05, -1],
+                [-1.05, -1, -1.05, 1],
+                [-1.05, 1, -1.1, 1]]
+    dash_grid_lines = [[-1 + 2/3, -1, -1 + 2/3, 1],
+                       [1 - 2/3, -1, 1 - 2/3, 1],
+                       [-1, -1 + 2/3, 1, -1 + 2/3],
+                       [-1, 1 - 2/3, 1, 1 - 2/3]]
+    alignment_text_positions = {
+        "LAWFUL<br>GOOD": (-1 + 1/3, 1 - 1/3),
+        "NEUTRAL<br>GOOD": (0, 1 - 1/3),
+        "CHAOTIC<br>GOOD": (1 - 1/3, 1 - 1/3),
+        "LAWFUL<br>NEUTRAL": (-1 + 1/3, 0),
+        "NEUTRAL": (0, 0),
+        "CHAOTIC<br>NEUTRAL": (1 - 1/3, 0),
+        "LAWFUL<br>EVIL": (-1 + 1/3, -1 + 1/3),
+        "NEUTRAL<br>EVIL": (0, -1 + 1/3),
+        "CHAOTIC<br>EVIL": (1 - 1/3, -1 + 1/3),
+    }
+
+    # Calculate average stats
+    stat = df.groupby("Type")[["Alignment_EG", "Alignment_LC"]].mean()
+    stat.drop(labels=["Ooze"], inplace=True)
+    c = ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c",
+         "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928",
+         "#999999"]
+
+    fig = go.Figure()
+    for a, pos in alignment_text_positions.items():
+        # Use scatter as a workaround to put text behind markers
+        fig.add_trace(go.Scatter(
+            x=[pos[0]], y=[pos[1]], mode='text',
+            text=a, textposition='middle center', showlegend=False,
+            textfont=dict(
+                size=12, color="gainsboro",
+                family=config.FONT_STACK, weight=800)))
+    for i, (index, row) in enumerate(stat.iterrows()):
+        fig.add_trace(go.Scatter(
+            x=[row['Alignment_LC']],
+            y=[row['Alignment_EG']],
+            mode='markers',
+            name=index,
+            marker=dict(
+                color=c[i],
+                size=10,
+                line=dict(width=1, color='white')
+            ),
+            hovertemplate=f'<b>{index}</b><extra></extra>'
+        ))
+    fig.add_annotation(
+        text="Monster <b>Types</b> by Average <b>Alignment</b>",
+        xref="paper", yref="paper", x=0.5, y=1.03, showarrow=False,
+        borderpad=0, align="center", xanchor="center", borderwidth=0,
+        font=dict(size=14, color="black", family=config.FONT_STACK))
+    for ax_line in ax_lines:
+        fig.add_shape(
+                type="line",
+                x0=ax_line[0], y0=ax_line[1],
+                x1=ax_line[2], y1=ax_line[3],
+                line=dict(color="black", width=1.5)
+                )
+    for dash_grid_line in dash_grid_lines:
+        fig.add_shape(
+                type="line", layer="below",
+                x0=dash_grid_line[0], y0=dash_grid_line[1],
+                x1=dash_grid_line[2], y1=dash_grid_line[3],
+                line=dict(color="gainsboro", width=1.5, dash="dash")
+                )
+    fig.add_annotation(
+        text="<b>Lawful</b> / <b>Chaotic</b>",
+        xref="x", yref="y", x=0, y=-1.15, showarrow=False, borderpad=0,
+        font=dict(size=12, color="black", family=config.FONT_STACK),
+        align="center", xanchor="center", yanchor="middle", borderwidth=0)
+    fig.add_annotation(
+        dict(
+            x=0.55, y=-1.15, xref="x", yref="y",
+            text="", showarrow=True,
+            ax=0.35, ay=-1.15, axref="x", ayref='y',
+            arrowhead=3, arrowwidth=1.5, arrowcolor='black',)
+            )
+    fig.add_annotation(
+        dict(
+            x=-0.55, y=-1.15, xref="x", yref="y",
+            text="", showarrow=True,
+            ax=-0.35, ay=-1.15, axref="x", ayref='y',
+            arrowhead=3, arrowwidth=1.5, arrowcolor='black',)
+            )
+    fig.add_annotation(
+        text="<b>Evil</b> / <b>Good</b>", textangle=-90,
+        xref="x", yref="y", x=-1.15, y=0, showarrow=False, borderpad=0,
+        font=dict(size=12, color="black", family=config.FONT_STACK),
+        align="center", xanchor="center", yanchor="middle", borderwidth=0)
+    fig.add_annotation(
+        dict(
+            x=-1.15, y=0.55, xref="x", yref="y",
+            text="", showarrow=True,
+            ax=-1.15, ay=0.35, axref="x", ayref='y',
+            arrowhead=3, arrowwidth=1.5, arrowcolor='black',)
+            )
+    fig.add_annotation(
+        dict(
+            x=-1.15, y=-0.55, xref="x", yref="y",
+            text="", showarrow=True,
+            ax=-1.15, ay=-0.35, axref="x", ayref='y',
+            arrowhead=3, arrowwidth=1.5, arrowcolor='black',)
+            )
+    fig.update_layout(
+        legend_title=None,
+        xaxis=dict(
+            title=dict(text=""),
+            automargin=False,
+            range=(-1.2, 1.2),
+            fixedrange=True,
+            showticklabels=False,
+            showgrid=False,
+            zeroline=False,
+            ),
+        yaxis=dict(
+            range=(-1.2, 1.2),
+            title=dict(text=""),
+            automargin=False,
+            fixedrange=True,
+            showgrid=False,
+            showticklabels=False,
+            zeroline=False,
+            ),
+        paper_bgcolor=Colors.BG_COLOR,
+        plot_bgcolor=Colors.BG_COLOR,
+        margin=dict(l=500, r=500, t=30, b=10),
+        width=config.WIDTH,
+        height=440,
+        )
+
+    fig.write_html(
+        "reports/html/monster_avg_alignment.html",
+        full_html=False, include_plotlyjs='cdn',
+        config={
+            "displayModeBar": False,
+            })
+
+
 if __name__ == "__main__":
     df = _assign_grid_positions(read_data(), MAX_PER_ROW, CATEGORY_SPACING)
     generate_challenge_rating_fig(df)
     generate_challenge_rating_by_type_fig(df)
     generate_challenge_rating_by_size_fig(df)
     generate_ability_radar_fig(df)
+    generate_alignment_fig(df)

@@ -1,5 +1,5 @@
 class Colors:
-    GRID_COLOR = "white"
-    BG_COLOR = "#f4f4f4"
+    BG_COLOR = "white"
     MARKER_COLOR = "#999999"
-    MARKER_HIG_COLOR = "#e41a1c"
+    MARKER_HIG_COLOR = "#e31a1c"
+    BUTTON_BG_COLOR = "gainsboro"

@@ -177,6 +177,19 @@ def parse_monster_block(block: dict) -> list:
     return data
 
 
+def map_alignment(alignment):
+    good_evil_map = {'good': 1, 'neutral': 0, 'evil': -1}
+    lawful_chaotic_map = {'lawful': -1, 'neutral': 0, 'chaotic': 1}
+    if alignment in ('any', 'unaligned'):
+        return np.nan, np.nan
+    parts = alignment.split()
+    if len(parts) == 2:
+        lc, eg = parts
+    else:
+        lc = eg = 'neutral'
+    return good_evil_map[eg], lawful_chaotic_map[lc]
+
+
 def process_data() -> None:
     """
     Reads the raw data and saves a new CSV file with the results of the
@@ -216,6 +229,9 @@ def read_data() -> pd.DataFrame:
 
     # Add aux data for plotting
     df["ChallengeRatingInt"] = df["ChallengeRating"].apply(cr_to_int)
+    df[['Alignment_EG', 'Alignment_LC']] = df['Alignment'].apply(
+        lambda x: pd.Series(map_alignment(x))
+        )
 
     return df
 
