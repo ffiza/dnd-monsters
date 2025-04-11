@@ -182,6 +182,8 @@ def map_alignment(alignment):
     lawful_chaotic_map = {'lawful': -1, 'neutral': 0, 'chaotic': 1}
     if alignment in ('any', 'unaligned'):
         return np.nan, np.nan
+    if alignment == "any evil alignment":
+        return -1, np.nan
     parts = alignment.split()
     if len(parts) == 2:
         lc, eg = parts
