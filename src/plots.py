@@ -559,7 +559,7 @@ def generate_alignment_fig(df: pd.DataFrame) -> None:
     for a, pos in alignment_text_positions.items():
         # Use scatter as a workaround to put text behind markers
         fig.add_trace(go.Scatter(
-            x=[pos[0]], y=[pos[1]], mode='text',
+            x=[pos[0]], y=[pos[1]], mode='text', hoverinfo="skip",
             text=a, textposition='middle center', showlegend=False,
             textfont=dict(
                 size=12, color="gainsboro",
@@ -671,8 +671,8 @@ def generate_alignment_fig(df: pd.DataFrame) -> None:
 
 if __name__ == "__main__":
     df = _assign_grid_positions(read_data(), MAX_PER_ROW, CATEGORY_SPACING)
-    generate_challenge_rating_fig(df)
-    generate_challenge_rating_by_type_fig(df)
-    generate_challenge_rating_by_size_fig(df)
-    generate_ability_radar_fig(df)
+    # generate_challenge_rating_fig(df)
+    # generate_challenge_rating_by_type_fig(df)
+    # generate_challenge_rating_by_size_fig(df)
+    # generate_ability_radar_fig(df)
     generate_alignment_fig(df)
